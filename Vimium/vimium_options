@@ -1,0 +1,9 @@
+unmapAll
+map ? Show help
+map <c-f> scrollRight
+map <c-b> scrollLeft
+map <c-p> scrollUp
+map <c-n> scrollDown
+map <c-s> LinkHints.activateMode
+map <c-i> focusInput
+unmap B

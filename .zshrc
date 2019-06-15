@@ -1,3 +1,5 @@
+export PATH=$PATH:$HOME/.nodebrew/current/bin
+
 ### General ###
 # export EDITOR=emacs
 setopt auto_pushd        # cd時にディレクトリスタックにpushdする

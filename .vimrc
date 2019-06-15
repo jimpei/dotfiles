@@ -32,7 +32,7 @@ noremap <C-a> <HOME>
 noremap <C-e> <End>
 noremap <C-d> <Del>
 noremap <C-h> <BS>
-noremap <C-k> D
+noremap <C-K> <Esc>d<END>A
 noremap! <C-p> <Up>
 noremap! <C-n> <Down>
 noremap! <C-b> <Left>
@@ -41,5 +41,5 @@ noremap! <C-a> <HOME>
 noremap! <C-e> <End>
 noremap! <C-d> <Del>
 noremap! <C-h> <BS>
-"noremap! <C-k> D
+noremap! <C-K> <Esc>d<END>A
 

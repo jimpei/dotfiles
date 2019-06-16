@@ -1,4 +1,4 @@
-export PATH=$PATH:$HOME/.nodebrew/current/bin
+export PATH="$PATH:/opt/yarn-[version]/bin:$PATH:$HOME/.nodebrew/current/bin"
 
 ### General ###
 # export EDITOR=emacs

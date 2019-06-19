@@ -1,3 +1,4 @@
+### path
 export PATH="$PATH:/opt/yarn-[version]/bin:$PATH:$HOME/.nodebrew/current/bin"
 
 ### General ###
@@ -34,9 +35,6 @@ alias em="emacs"
 # alias grep='ionice -c 3 grep'
 # alias zgrep='ionice -c 3 zgrep'
 # alias egrep='ionice -c 3 egrep'
-
-# for mac
-# alias ls='ls -F'
 
 
 ### prompt

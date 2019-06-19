@@ -36,7 +36,6 @@ alias em="emacs"
 # alias zgrep='ionice -c 3 zgrep'
 # alias egrep='ionice -c 3 egrep'
 
-
 ### prompt
 # vcs_infoロード
 autoload -Uz vcs_info

@@ -42,6 +42,7 @@ alias ll="ls -lt" #タイムスタンプ Desc
 alias lll="ls -ltr" #タイムスタンプ Asc
 alias emasc="emacs"
 alias em="emacs"
+alias py="python"
 # alias grep='ionice -c 3 grep'
 # alias zgrep='ionice -c 3 zgrep'
 # alias egrep='ionice -c 3 egrep'

@@ -1,15 +1,9 @@
 ### path
-# export PATH="$PATH:/opt/yarn-[version]/bin:$PATH:$HOME/.nodebrew/current/bin:$HOME/Library/Python/3.7/bin:$PATH:~/.npm-global/bin:$PATH"
 export PATH=$PATH:/opt/yarn-[version]/bin
-export PATH=$PATH:$HOME/Library/Python/2.7/bin
 export PATH=$PATH:~/.npm-global/bin
 export PATH=$PATH:/usr/local/var/nodebrew/bin
 export PATH=$HOME/.nodebrew/current/bin:$PATH
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
-# export PATH=$PATH:/Users/jimpei/.npm-global/bin/firebase
+export PATH=/usr/local/bin:$PATH
 
 ### General ###
 # export EDITOR=emacs

@@ -3,7 +3,10 @@ export PATH=$PATH:/opt/yarn-[version]/bin
 export PATH=$PATH:~/.npm-global/bin
 export PATH=$PATH:/usr/local/var/nodebrew/bin
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+export PATH=/usr/local/bin/git:$PATH
 export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/opt/heroku/bin:$PATH
+export PATH=$PATH:$HOME/Library/flutter/bin
 
 ### General ###
 # export EDITOR=emacs

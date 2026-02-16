@@ -121,10 +121,10 @@ bindkey "^N" history-beginning-search-forward-end
 # ----------------------------------------------------------------
 
 autoload -Uz vcs_info
-zstyle ':vcs_info:*' formats ':%F{green}%b%f'
-zstyle ':vcs_info:*' actionformats ':%F{green}%b%f(%F{red}%a%f)'
+zstyle ':vcs_info:*' formats '%F{green}%b%f:'
+zstyle ':vcs_info:*' actionformats '%F{green}%b%f(%F{red}%a%f):'
 precmd() { vcs_info }
-PROMPT='%F{yellow}%M${vcs_info_msg_0_}:%F{magenta}%~%f$ '
+PROMPT='%F{yellow}■%f :${vcs_info_msg_0_}%F{magenta}%~%f$ '
 
 # ターミナルのタイトル
 case "${TERM}" in

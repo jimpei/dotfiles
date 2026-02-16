@@ -149,6 +149,7 @@ setopt hist_ignore_dups      # 直前と同じコマンドラインはヒスト�
 setopt append_history        # 履歴を追加 (毎回 .zsh_history を作るのではなく)
 # setopt inc_append_history    # 履歴をインクリメンタルに追加
 setopt hist_no_store         # historyコマンドは履歴に登録しない
+setopt extended_history      # タイムスタンプと実行時間を記録する
 
 # 3文字以下のコマンドと指定されたコマンドはヒストリに保存しない
 zshaddhistory() {
